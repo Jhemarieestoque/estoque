@@ -1,0 +1,165 @@
+body {
+	background: #F5DCB2;
+}
+
+.menu{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap:10px;
+    padding: 10px;
+	list-style: 0;
+}
+
+li{
+	padding: 10px;
+	background: #F9B79F;
+	text-align: center;
+	box-shadow: 0 0 40px #f9b09f;
+	color: white;
+	border-style: double;
+	list-style: none;
+}
+
+li:hover {
+	background: #f9b09f ;
+	color: white;
+	transition: 0.5s;
+	border-radius: 50% 50%;
+} 
+
+a{
+	text-decoration:none;
+}
+
+.box1{
+	background-image: url(../images/box1.jpg);
+	background-position:center;
+	background-repeat:no repeat;
+	background-size:cover;
+	height:40vh;
+	float:left;
+	width:23%;
+	margin-right:20px;
+	margin-left:20px;
+	margin-bottom:30px;
+	text-align: center;
+	margin-top: 30px;
+}
+.box2{
+	background-image: url(../images/box2.jpg);
+	background-position:center;
+	background-repeat:no repeat;
+	background-size:cover;
+	height:40vh;
+	float:left;
+	width:23%;
+	margin-right:20px;
+	margin-bottom:30px;
+	text-align: center;
+	margin-top: 30px;
+}
+.box3{
+	background-image: url(../images/box3.jpg);
+	background-position:center;
+	background-repeat:no repeat;
+	background-size:cover;
+	height:40vh;
+	float:left;
+	width:23%;
+	margin-right:20px;
+	margin-bottom:30px;
+	text-align: center;
+	margin-top: 30px;
+
+}
+.box4{
+	background-image: url(../images/box4.jpg);
+	background-position:center;
+	background-repeat:no repeat;
+	background-size:cover;
+	height:140vh;
+	float:right;
+	width:23%;
+	margin-right:20px;
+}
+.box5{
+	background:red;
+	height:40vh;background-image: url(../images/box5.jpg);
+	background-position:center;
+	background-repeat:no repeat;
+	background-size:cover;
+	float:left;
+	width:23%;
+	margin-right:20px;
+	margin-left:20px;
+	margin-bottom:20px;
+	margin-top:30px;
+	text-align: center;
+}
+.box6{
+	background-image: url(../images/box6.jpg);
+	background-position:center;
+	background-repeat:no repeat;
+	background-size:cover;
+	height:40vh;
+	float:left;
+	width:23%;
+	margin-right:20px;
+	margin-bottom:20px;
+	margin-top:30px;
+	text-align: center;
+}
+.box7{
+	background-image: url(../images/box7.jpg);
+	background-position:center;
+	background-repeat:no repeat;
+	background-size:cover;
+	height:40vh;
+	float:left;
+	width:23%;
+	margin-right:20px;
+	margin-bottom:20px;
+	margin-top:30px;
+	text-align: center;
+}
+.box8{
+	background:red;background-image: url(../images/box8.jpg);
+	background-position:center;
+	background-repeat:no repeat;
+	background-size:cover;
+	height:40vh;
+	float:left;
+	width:23%;
+	margin-right:20px;
+	margin-bottom:20px;
+	margin-left:20px;
+	margin-top:30px;
+	text-align: center;
+}
+.box9{
+	background-image: url(../images/box9.jpg);
+	background-position:center;
+	background-repeat:no repeat;
+	background-size:cover;
+	height:40vh;
+	float:left;
+	width:23%;
+	margin-right:20px;
+	margin-bottom:20px;
+	margin-top:30px;
+	text-align: center;
+}
+.box10{
+	background-image: url(../images/box10.jpg);
+	background-position:center;
+	background-repeat:no repeat;
+	background-size:cover;
+	height:40vh;
+	float:left;
+	width:23%;
+	margin-right:20px;
+	margin-bottom:20px;
+	margin-top:30px;
+	text-align: center;
+}
+

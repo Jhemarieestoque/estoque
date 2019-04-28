@@ -1,0 +1,85 @@
+.home{
+	background-image: url(..images/first logo.jpg)
+	height: 40vh;
+	background-position: center;
+
+}
+ 
+.image{
+	width:97%;
+}
+
+body {
+	background: #F5DCB2;
+}
+
+.menu{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap:10px;
+    padding: 10px;
+	list-style: 0;
+}
+
+ li{
+	padding: 10px;
+	background: #F9B79F;
+	text-align: center;
+	box-shadow: 0 0 40px #f9b09f;
+	color: white;
+	border-style: double;
+	list-style: none;
+}
+
+li:hover {
+	background: #f9b09f ;
+	color: white;
+	transition: 0.5s;
+	border-radius: 50% 50%;
+} 
+
+a{
+	text-decoration:none;
+}
+
+.text{
+	background-color: #f9a89f;
+	color:white;
+	height: 30vh;
+	float: left;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+.column{
+	height:60vh;
+	border: 10px white double;
+	margin-bottom: 30px;
+	padding: 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-size: cover;
+}
+
+.img{
+	float:left;
+	width: 50%;
+}
+
+.artist{
+	float:right;
+	width: 50%;
+}
+
+.and-the{
+	float:left;
+	width:50%;
+}
+
+.art{
+	float:right;
+	width:50%;
+	margin-bottom: 20px;
+}
+
